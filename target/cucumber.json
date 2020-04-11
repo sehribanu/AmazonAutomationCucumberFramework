@@ -1,0 +1,354 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-11T22:06:15.938Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1854711585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Users should be able to navigate to the Main Page",
+        "description": "",
+        "id": "navigation-to-the-main-page;users-should-be-able-to-navigate-to-the-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 107818173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 850815428,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the Main Page",
+            "match": {
+              "location": "NavigationToMainPageStepDefs.the_user_navigates_to_the_Main_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34756537,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the Main page should be displayed",
+            "match": {
+              "location": "NavigationToMainPageStepDefs.the_ain_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation to the Main Page",
+    "description": "",
+    "id": "navigation-to-the-main-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NavigationToMainPage.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2009575132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the Main Page",
+            "match": {
+              "location": "NavigationToMainPageStepDefs.the_user_navigates_to_the_Main_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-11T22:06:18.819Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2391063743,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Users should be able to search a specific category",
+        "description": "",
+        "id": "to-be-able-to-make-a-search-on-a-specific-category;users-should-be-able-to-search-a-specific-category",
+        "after": [
+          {
+            "result": {
+              "duration": 122303829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 750287794,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the users select \"Books\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_select_category(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235852652,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the users enter \"Selenium\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_enter_in_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1184708374,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the users hit Search button",
+            "match": {
+              "location": "SearchFeatureMainPageStepDefs.the_users_hit_Search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162400150,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the users get results in \"Book\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Book\"",
+                  "offset": 25
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_get_results_in_category(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 859415836,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the Main Page",
+            "match": {
+              "location": "NavigationToMainPageStepDefs.the_user_navigates_to_the_Main_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-11T22:06:25.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1236713768,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Users should be able to search a specific category",
+        "description": "",
+        "id": "to-be-able-to-make-a-search-on-a-specific-category;users-should-be-able-to-search-a-specific-category",
+        "after": [
+          {
+            "result": {
+              "duration": 101820947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222530010,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users select \"Books\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_select_category(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128592071,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the users enter \"Selenium\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_enter_in_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 986783813,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the users hit Search button",
+            "match": {
+              "location": "SearchFeatureMainPageStepDefs.the_users_hit_Search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196633505,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the users get results containing \"selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 33
+                }
+              ],
+              "location": "SearchFeatureMainPageStepDefs.the_users_get_results_containing(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "To be able to make a search on a specific category",
+    "description": "",
+    "id": "to-be-able-to-make-a-search-on-a-specific-category",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchFeatureMainPage.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
